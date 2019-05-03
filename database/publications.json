@@ -1,0 +1,533 @@
+[
+    {
+        "type": "inproceedings",
+        "citation-key": "technomer14_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "Klaus",
+                "von": "",
+                "last": "Nendel",
+                "jr": ""
+            }
+        ],
+        "title": "Textile Gleitbeschichtungen in Kettenfördersystemen",
+        "booktitle": "Fachtagung über Verarbeitung und Anwendung von Polymeren (Technomer) : Tagungsband",
+        "address": "Chemnitz",
+        "year": "2014",
+        "month": "05",
+        "volume": "14",
+        "pages": "171--175",
+        "isbn": "978-3-9812554-9-2",
+        "language": "german",
+        "abstract": "In Förderanlagen werden zum Großteil Kunststoffgleitketten eingesetzt, deren wichtigste Vorteile gegenüber Stahlketten der schmierungsfreie Betrieb, das geringe Gewicht sowie die vergleichsweise einfache Herstellung sind. Die verwendeten Kunststoffe müssen sowohl eine hohe mechanische Festigkeit als auch einen geringen Reibwert und hohe Verschleißfestigkeit gegenüber der ebenfalls aus Kunststoff bestehenden Gleitschiene aufweisen. Die Reibung und den Verschleiß zwischen der Kontaktpaarung Kette und Schiene zu minimieren ist eine beständige Aufgabe der Forschung und Entwicklung. Die tribologischen Eigenschaften lassen sich z. B. durch den Zusatz von Additiven aber auch durch die gezielte Strukturierung von Oberflächen verbessern. Dieser Ansatz wurde durch das Aufbringen von textilen Hochleistungsgeweben auf Gleitschienen weiter verfolgt. Im Beitrag sollen die Herstellung und die dadurch erreichbare Verbesserung der tribologischen Eigenschaften dieser Verbundstruktur vorgestellt werden.",
+        "bibpath": "database\\2014\\technomer14_bartsch.bib"
+    },
+    {
+        "type": "inproceedings",
+        "citation-key": "gkt15_sumpf2",
+        "author": [
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "Hagen",
+                "von": "",
+                "last": "Bankwitz",
+                "jr": ""
+            },
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Strobel",
+                "jr": ""
+            }
+        ],
+        "title": "Calculation Methods for Chain Conveyor System",
+        "booktitle": "International Symposium Plastic-Slide-Chains and Tribology in Conveyor Systems : Proceedings",
+        "address": "Chemnitz",
+        "year": "2015",
+        "month": "April",
+        "number": "2",
+        "pages": "181--191",
+        "isbn": "978-3-945479-03-2",
+        "language": "english",
+        "bibpath": "database\\2015\\gkt15_sumpf2.bib"
+    },
+    {
+        "type": "inproceedings",
+        "citation-key": "gft16_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "André",
+                "von": "",
+                "last": "Bergmann",
+                "jr": ""
+            }
+        ],
+        "title": "Analyse der Reibtemperatur von thermoplastischen Gleitkontakten am Beispiel von POM – PE Paarungen",
+        "booktitle": "Tribologie-Fachtagung",
+        "organization": "Gesellschaft für Tribologie e.V.",
+        "year": "2016",
+        "month": "September",
+        "volume": "57",
+        "ibsn": "978-3-9817451-1-5",
+        "pages": "07",
+        "language": "german",
+        "keywords": [
+            "Reibung",
+            "Verschleiß",
+            "Kunststoffreibung",
+            "Kontaktflächentemperatur"
+        ],
+        "abstract": "Die Auslegung von Zug- und Tragmitteln in der Stetigfördertechnik (z. B. Kunststoffketten) basiert bisher auf einer rein mechanischen Dimensionierung. Jedoch sind mechanische Grenzwerte nur bedingt zur Vermeidung von Systemversagen anwendbar. Mit höheren Geschwindigkeiten oder Pressungen steigt vor allem die thermische Belastung, welche ab einer bestimmten Temperatur zu Systemversagen auf-grund von Erweichen oder Aufschmelzen der Materialien führt. Anhand systematischer Untersuchungen werden Zusammenhänge zwischen der Reibtemperatur, dem Reibwert, dem Verschleiß und Prozesspa-rametern ermittelt. Auf dieser Grundlage werden Grenzwerte festgelegt und ein Modell zur Berechnung der Reibtemperatur zu entwickelt.",
+        "language2": "english",
+        "keywords2": "friction, wear, plastic friction, friction temperatur",
+        "abstract2": "The design of traction mechanism and load-carrier of continuous conveying units (e. g. plastic chains) based so far on a purely mechanical dimensioning. However, mechanical limits are only limited applicable to avoid system failure. With higher speeds or pressures, especially the thermal stress increases, which results in system failure based on softening or melting of the materials at a certain temperature. By means of systematic studies correlations between the friction temperature, the coefficient of friction, the wear and process parameters are determined. On this basis, limits are determined and a model for calculating the friction temperature is developed.",
+        "bibpath": "database\\2016\\gft16_bartsch.bib"
+    },
+    {
+        "type": "phdthesis",
+        "citation-key": "diss17_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            }
+        ],
+        "title": "Erweiterung der Dimensionierungsgrundlagen für Gleitkettenfördersysteme",
+        "school": "Technische Universität Chemnitz",
+        "year": "2017",
+        "month": "9",
+        "urn": "urn:nbn:de:bsz:ch1-qucosa-229404",
+        "language": "german",
+        "keywords": [
+            "Gleitreibung",
+            "Trockenreibung",
+            "Reibtemperatur",
+            "Tribologie",
+            "thermoplastischer Kunststoff",
+            "Kettenförderer",
+            "Gleitkette",
+            "Gleitschiene",
+            "Dimensionierung"
+        ],
+        "abstract": "Im Zuge der kontinuierlichen Weiterentwicklung von Verarbeitungs- und Verpackungsmaschinen werden immer höhere Anforderungen an die für den Gütertransfer eingesetzte Fördertechnik gestellt. Neben der erhöhten Förderleistung sind zudem ein schmiermittelfreier Betrieb sowie eine hundertprozentige Verfügbarkeit gefordert. Durch die zunehmende Leistungssteigerung kommt es zu hohen Beanspruchungen, die bei falscher Auslegung zu mechanischem oder thermischem Versagen der Kunststoff-Bauteile im Fördersystem führen können. Während das mechanische Versagen mit den aktuellen Dimensionierungen vermieden werden kann, gibt es bezüglich des thermischen Versagens keine hinreichend genaue Auslegungsvorschrift. Die vorliegende Arbeit befasst sich mit der thermischen Analyse von Gleitketten-Fördersystemen sowie den darin eingesetzten thermoplastischen Kunststoff-Kunststoff-Gleitpaarungen. Diesbezüglich werden die Gleitkontakte eines Gleitkettenförderers und deren Belastungen analysiert. Durch Abstraktion des Kette–Schiene-Systems wird ein semi-analytisches Berechnungsmodell zur Abschätzung der Reibtemperatur entwickelt, welches mittels experimenteller Untersuchungen auf einem Tribo-Prüfstand und an einem Fördersystem verifiziert wird. Aus den Untersuchungsergebnissen konnte ein thermisches Auslegungskriterium für Kunststoff-Kunststoff-Gleitpaarungen abgeleitet werden, welches sowohl auf Gleitketten-Förderer als auch perspektivisch auf ähnliche tribologische Systeme übertragen werden kann.",
+        "language2": "english",
+        "keywords2": "Sliding friction, dry friction, frictional temperature, tribology, thermoplastic polymer, chain conveyer, sliding chain, slide rail, dimensioning",
+        "abstract2": "In the course of the continuous enhancements of processing and packaging machines, higher demands are set on conveying technology used for transferring goods. In addition to an increased delivery rate, a lubricant-free operation as well as a hundred percent availability are claimed. Increasing performance leads to high stresses that can result to mechanical or thermal failure of plastic components in the conveying system, if incorrectly designed. While mechanical failure can be avoided with up to date dimensioning, there is no sufficiently precise dimensioning criterion in regard to thermal failure. The present thesis is concerning with the thermal analysis of sliding chain conveyor systems as well as the thermoplastic plastic-plastic sliding pairs used therein. In this regard, the sliding contacts of a sliding chain conveyor and their loads are analyzed. By abstraction of the chain&#8211;rail system, a semi-analytical model for estimating the frictional temperature is developed, which is verified by experimental studies on a tribo test bench and a conveyor system. From the study results, a thermal dimensioning criterion for plastic plastic pairings could be derived, which can be applied to sliding chain conveyor as well as perspectivly similar tribological systems.",
+        "bibpath": "database\\2017\\diss17_bartsch.bib"
+    },
+    {
+        "type": "inproceedings",
+        "citation-key": "gkt17_p01_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "André",
+                "von": "",
+                "last": "Bergmann",
+                "jr": ""
+            }
+        ],
+        "title": "Friction Temperature of POM–PE Sliding Contacts",
+        "booktitle": "International Symposium Plastic-Slide-Chains and Tribology in Conveyor Systems: Proceedings",
+        "address": "Chemnitz",
+        "year": "2017",
+        "month": "4",
+        "volume": "3",
+        "isbn": "978-3-945479-08-7",
+        "pages": "139--146",
+        "doi": "10.13140/RG.2.2.16781.84966/1",
+        "urn": "urn:nbn:de:bsz:ch1-qucosa-231659",
+        "language": "english",
+        "keywords": [
+            "friction temperature",
+            "thermal collapse",
+            "thermoplastics",
+            "sliding friction"
+        ],
+        "abstract": "The design of traction mechanisms of continuous conveying units (e.g. plastic chains) is so far based on a purely mechanical dimensioning. However, mechanical limits are only applicable in a limited way to avoid system failure. With higher speeds or pressure, especially the thermal stress increases, which results in system failure based on softening or melting of the materials at a certain temperature. By means of systematic studies, correlations between friction temperature, coefficient of friction, wear and process parameters are examined. On this basis, a model for calculating the friction temperature is developed.",
+        "language2": "german",
+        "keywords2": "Reibtemperatur, thermisches Versagen, thermoplastischer Kunststoff, Gleitreibung",
+        "abstract2": "Die Konstruktion von Zugmitteln für kontinuierliche Fördereinheiten (z. B. Kunststoffketten) beruht bisher auf einer rein mechanischen Dimensionierung. Allerdings sind mechanische Grenzwerte zur Vermeidung von Systemausfall nur in bedingt anwendbar. Bei größeren Geschwindigkeiten oder Druck erhöht sich insbesondere die thermische Beanspruchung, was bei einer bestimmten Temperatur zum Systemausfall durch Erweichung oder Schmelzen der Werkstoffe führt. In systematischen Untersuchungen wurde die Korrelationen zwischen Reibungstemperatur, Reibungskoeffizient, Verschleiß und den Prozessparametern untersucht. Auf dieser Basis wurde ein Modell zur Berechnung der Reibungstemperatur entwickelt.",
+        "bibpath": "database\\2017\\gkt17_p01_bartsch.bib",
+        "pdfpath": "database\\2017\\gkt17_p01_bartsch.pdf"
+    },
+    {
+        "type": "article",
+        "citation-key": "lj17_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "Klaus",
+                "von": "",
+                "last": "Nendel",
+                "jr": ""
+            }
+        ],
+        "title": "Semi-analytischer Ansatz zur Berechnung der Reibtemperaturen in Gleitkettenförderern",
+        "journal": "Logistics Journal : Proceedings",
+        "year": "2017",
+        "month": "September",
+        "volume": "2017",
+        "issn": "2192-9084",
+        "doi": "10.2195/lj_Proc_bartsch_de_201710_01",
+        "urn": "urn:nbn:de:0009-14-45684",
+        "language": "german",
+        "keywords": [
+            "Dimensionierung",
+            "Gleitketten",
+            "Kettenförderer",
+            "Kunststoff-Kunststoff-Reibung",
+            "Reibtemperatur"
+        ],
+        "abstract": "Mit höheren Geschwindigkeiten oder Flächenpressungen erhöht sich die thermische Beanspruchung im Reibkontakt von Gleitketten und Gleitschienen, welche ab einer bestimmten Temperatur zu Erweichung und Aufschmelzen führt. Um dies zu vermeiden, wird ein semi-analytisches Modell zu Berechnung der Reibtemperatur hergeleitet und anhand experimenteller Untersuchungen validiert.",
+        "language2": "english",
+        "keywords2": "Slide Chain, Chain Conveyor, Thermoplastic Friction, Friction Temperature, Dimensioning",
+        "abstract2": "At higher speeds or contact pressures, thermal stress in frictional contacts of sliding chains and slide rails increases, which leads to softening and melting at a certain temperature. To avoid this, a semi-analytical model for calculating the friction temperature is derived and validated by means of experimental studies.",
+        "bibpath": "database\\2017\\lj17_bartsch.bib"
+    },
+    {
+        "type": "inproceedings",
+        "citation-key": "technomer17_bergmann",
+        "author": [
+            {
+                "first": "André",
+                "von": "",
+                "last": "Bergmann",
+                "jr": ""
+            },
+            {
+                "first": "Tobias",
+                "von": "",
+                "last": "Weisbach",
+                "jr": ""
+            },
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            }
+        ],
+        "title": "Reibwertreduktion durch gezielte Makrostrukturierung der Oberfläche von Reibsystemen mit Kunststoffbeteiligung",
+        "booktitle": "Fachtagung über Verarbeitung und Anwendung von Polymeren (Technomer): Tagungsband",
+        "address": "Chemnitz",
+        "year": "2017",
+        "month": "11",
+        "volume": "25",
+        "isbn": "978-3-939382-13-3",
+        "urn": "urn:nbn:de:bsz:ch1-qucosa-230859",
+        "url": "http://nbn-resolving.de/urn:nbn:de:bsz:ch1-qucosa-230859",
+        "language": "german",
+        "keywords": [
+            "Tribologie",
+            "Reibung",
+            "Verschleiß",
+            "Kunststoffe"
+        ],
+        "abstract": "Im Beitrag werden Möglichkeiten zur Optimierung von Reibsystemen durch geometrische Veränderung der Kontaktfläche erörtert. Als mögliches Einsatzgebiet bieten sich Linearführungen, wie sie zum Beispiel an einem Gleitkettenförderer im Bereich der Fördertechnik vorliegen, an.",
+        "bibpath": "database\\2017\\technomer17_bergmann.bib",
+        "pdfpath": "database\\2017\\technomer17_bergmann.pdf"
+    },
+    {
+        "type": "inproceedings",
+        "citation-key": "gft18_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "André",
+                "von": "",
+                "last": "Bergmann",
+                "jr": ""
+            },
+            {
+                "first": "Marcus",
+                "von": "",
+                "last": "Bona",
+                "jr": ""
+            }
+        ],
+        "title": "Approach for Predicting the Friction Temperature between Thermoplastics in Dry-Running Sliding Friction with Periodically Recurring Contacts",
+        "booktitle": "Tribology Conference",
+        "organization": "Gesellschaft für Tribologie e.V.",
+        "year": "2018",
+        "month": "September",
+        "volume": "59",
+        "pages": "P5",
+        "ibsn": "978-3-9817451-3-9",
+        "urn": "urn:nbn:de:bsz:ch1-qucosa2-318134",
+        "language": "english",
+        "keywords": [
+            "sliding friction",
+            "dry running",
+            "friction temperature",
+            "calculation model",
+            "tribology",
+            "thermoplastics",
+            "polymer"
+        ],
+        "abstract": "A variety of analytical and numerical approaches for calculating the friction temperature have been developed in the past. However, none is capable to estimate the friction temperature of thermoplastic friction pairings. Therefore, a semi-analytical model for predicting the friction temperature has been developed. Dry friction and periodically recurring contact is a premise. In the article the derivation is shown und influencing parameters are explained. A validation is made by experimental studies on a conveyor system. The model can be applied to sliding chain conveyor as well as perspectively similar tribological systems.",
+        "language2": "german",
+        "keywords2": "Gleitreibung, Trockenreibung, Reibtemperatur, Berechnungsmodell, Tribologie, thermoplastischer Kunststoff",
+        "bibpath": "database\\2018\\gft18_bartsch.bib",
+        "pdfpath": "database\\2018\\gft18_bartsch.pdf"
+    },
+    {
+        "type": "inproceedings",
+        "citation-key": "iwkm18_sumpf",
+        "author": [
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Strobel",
+                "jr": ""
+            },
+            {
+                "first": "Marcus",
+                "von": "",
+                "last": "Bona",
+                "jr": ""
+            }
+        ],
+        "title": "Prozessdatenüberwachung in Kettenfördersystemen",
+        "booktitle": "Scientific Reports",
+        "year": "2018",
+        "number": "3",
+        "pages": "111-114",
+        "month": "October",
+        "publisher": "Hochschule Mittweida",
+        "url": "https://www.forschung.hs-mittweida.de/veroeffentlichungen/scientific-reports/scientific-reports-2018.html",
+        "language": "german",
+        "abstract": "In Stetigfördersystemen werden zunehmend Transportketten sowie Stütz- und Führungsschienen aus thermoplastischem Kunststoff eingesetzt, die u. a. einen schmierungsfreien und sauberen Transportprozess ermöglichen. Die mechanischen Eigenschaften dieser Kunststoffe sind jedoch begrenzt und zudem in erheblichem Maße temperaturabhängig. Eine reibungsbedingte Erwärmung kann deshalb sehr schnell zu starkem Verschleiß und zum Aufschmelzen der Gleitelemente bis hin zum Ausfall des Fördersystems führen. Eine Überlastung des Fördersystems kann sich u. a. durch hohe Kettenzugkräfte, Kontaktflächentemperaturen, Schwingungen oder Verschleiß äußern. Im Beitrag werden Möglichkeiten erörtert, diese funktionsrelevanten Systemdaten zu erfassen und Anwender bei Überschreitung der Grenzwerte zu alarmieren.",
+        "bibpath": "database\\2018\\iwkm18_sumpf.bib"
+    },
+    {
+        "type": "article",
+        "citation-key": "jve18_strobel",
+        "author": [
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Strobel",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            }
+        ],
+        "title": "Influences on Dynamic Behavior of Sliding Chain Conveyors",
+        "journal": "Vibroengineering PROCEDIA",
+        "year": "2018",
+        "month": "September",
+        "volume": "19",
+        "pages": "1--5",
+        "issn": "2345-0533",
+        "doi": "10.21595/vp.2018.20171",
+        "language": "english",
+        "keywords": [
+            "vibrations",
+            "self-induced vibrations",
+            "natural frequency",
+            "multi-body simulation",
+            "continuous conveyor",
+            "sliding chain",
+            "thermoplastic polymer"
+        ],
+        "abstract": "Vibrations appearing in transport chain conveyors cause disadvantageous effects in conveying processes and decrease the durability of chains. In order to investigate these vibrations, a conveyor system with sliding chain made of plastic has been selected. Based on a generalized abstraction of this system, a multi-body simulation model was developed which considers viscoelastic properties of the sliding chain. The model was verified by measurements in the conveyor system. Finally, influencing factors on dynamic behavior were examined in more detail by variant calculations.",
+        "language2": "german",
+        "keywords2": "Schwingungen, Selbsterregte Schwingungen, Eigenfrequenz, Mehrkörper-Simulation, Stetigförderer, Gleitkette, thermoplastischer Kunststoff",
+        "bibpath": "database\\2018\\jve18_strobel.bib",
+        "pdfpath": "database\\2018\\jve18_strobel.pdf"
+    },
+    {
+        "type": "article",
+        "citation-key": "ts18_bartsch",
+        "author": [
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "André",
+                "von": "",
+                "last": "Bergmann",
+                "jr": ""
+            }
+        ],
+        "title": "Grenzbelastung von thermoplastischen Gleitkontakten am Beispiel von POM – PE Paarungen",
+        "journal": "Tribologie und Schmierungstechnik",
+        "publisher": "expert verlag GmbH",
+        "address": "Renningen",
+        "year": "2018",
+        "month": "2",
+        "volume": "65",
+        "number": "2",
+        "issn": "0724-3472",
+        "pages": "62--68",
+        "language": "german",
+        "keywords": [
+            "Gleitreibung",
+            "Trockenreibung",
+            "Reibtemperatur",
+            "Tribologie",
+            "thermoplastischer Kunststoff",
+            "pv-Wert"
+        ],
+        "abstract": "Die Auslegung von Zug- und Tragmitteln in der Stetigfördertechnik (z. B. Kunststoffketten) basiert bisher auf einer rein mechanischen Dimensionierung. Jedoch sind mechanische Grenzwerte nur bedingt zur Vermeidung von Systemversagen anwendbar. Mit höheren Geschwindigkeiten oder Flächenpressungen steigt vor allem die thermische Belastung, welche ab einer bestimmten Temperatur zu Systemversagen aufgrund von Erweichen oder Aufschmelzen der Kunststoffe führt. Anhand systematischer Untersuchungen werden Zusammenhänge zwischen der Reibtemperatur, dem Reibwert, dem Verschleiß und Prozessparametern ermittelt. Auf dieser Grundlage werden Grenzwerte festgelegt und ein Modell zur Abschätzung der Reibtemperatur entwickelt.",
+        "language2": "english",
+        "keywords2": "sliding friction, dry friction, frictional temperature, tribology, thermoplastic polymer, pv-value",
+        "abstract2": "The design of traction mechanism and load-carrier of continuous conveying units (e. g. plastic chains) based so far on a purely mechanical dimensioning. However, mechanical thresholds are only applicable in a limited way to avoid system failure. With higher speed or pressure, especially the thermal stress increases, which results in system failure based on softening or melting of the thermoplastics at a certain temperature. By means of systematic stud-ies correlations between friction temperature, coefficient of friction, wear and process parameters are determined. On this basis, limits are determined and a model for estimating the friction temperature is developed.",
+        "bibpath": "database\\2018\\ts18_bartsch.bib"
+    },
+    {
+        "type": "conference",
+        "citation-key": "vdi18_sumpf",
+        "author": [
+            {
+                "first": "Jens",
+                "von": "",
+                "last": "Sumpf",
+                "jr": ""
+            },
+            {
+                "first": "Ralf",
+                "von": "",
+                "last": "Bartsch",
+                "jr": ""
+            },
+            {
+                "first": "André",
+                "von": "",
+                "last": "Bergmann",
+                "jr": ""
+            }
+        ],
+        "title": "Auslegung von Stetigförderern mit Kunststoffgleitketten",
+        "journal": "VDI-Fachkonferenz Umschlingungsgetriebe",
+        "address": "Stuttgart",
+        "year": "2018",
+        "month": "12",
+        "day": "11",
+        "volume": "9",
+        "urn": "urn:nbn:de:bsz:ch1-qucosa2-331286",
+        "language": "german",
+        "keywords": [
+            "Fördertechnik",
+            "Transportketten",
+            "Gleitelemente",
+            "Dimensionierung",
+            "Tribologie",
+            "Reibwert",
+            "Verschleiß",
+            "Temperatur",
+            "thermoplastischer Kunststof"
+        ],
+        "abstract": "Transportketten aus thermoplastischen Kunststoffen gehören zu den am häufigsten eingesetzten Zugmitteln in der Stetigfördertechnik. Wesentliche Vorteile, insbesondere gegenüber Stahlketten, sind eine geringe Masse, eine hocheffiziente Fertigung sowie sehr gute Reibungs- und Verschleißeigenschaften, die den schmierungsfreien Betrieb der Förderer ermöglichen. Die Dimensionierung der Förderanlagen erfolgt primär über eine zulässige Kettenzugkraft. Das setzt voraus, dass sowohl die im System vorherrschende als auch die für die Kette ertragbare Zugkraft bekannt ist. Der Beitrag behandelt zum einen die Herausforderungen bei der Ermittlung dieser Werte, z. B. lastabhängige Reibkoeffizienten und fehlende Dauerfestigkeitswerte. Zum anderen wird auf die reibungsbedingte Erwärmung der Gleitelemente eingegangen. Diese beeinflusst signifikant die mechanischen Eigenschaften und führt teilweise zum Aufschmelzen der Kunststoffelemente, wird jedoch nach den üblichen Dimensionierungsmethoden nicht berücksichtigt. ",
+        "bibpath": "database\\2018\\vdi18_sumpf.bib",
+        "pdfpath": "database\\2018\\vdi18_sumpf.pdf"
+    }
+]

@@ -1,0 +1,3 @@
+[submodule "bibtex-parser"]
+	path = bibtex-parser
+	url = https://github.com/renanbr/bibtex-parser.git

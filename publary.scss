@@ -1,0 +1,126 @@
+/**************************************************************************************************
+ * 
+ *  publary - a publication library include for websites based on PHP+AJAX+Bootstrap+BibTex 
+ *  
+ *  license and info: https://github.com/r84r/publary
+ *  
+ *  last modification: 2019-05-02, Ralf Bartsch
+ * 
+ *************************************************************************************************/
+
+
+$headerBackground:  rgb(0,52,119); // TUC Maschinenbau: 003477
+$headerForeground:  white;
+$controlBackground: #1D1F21; // Brackets Dark: Background
+$controlForeground: #DDDDDD; // Brackets Dark: Text
+$controlGrayed:     #767676; // Brackets Dark: Comment
+$colorPubTitle:     #6C9EF8; // Brackets Dark: Blue
+$colorPubYear:      #D89333; // Brackets Dark: Orange
+$colorPubJournal:   #85A300; // Brackets Dark: Green
+$colorPubAuthor:    #B77FDB; // Brackets Dark: Violett
+
+$colorBackground: white;
+$colorText:       black;
+$colorDarkGray:   #888;
+$colorGray:       #aaa;
+$colorLightGray:  #ddd;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500');
+$fontContent: 'Roboto', 'Segoe UI', sans-serif;
+
+/******************************************************************************
+ * Bootstrap 3 Polyfill
+ *****************************************************************************/
+
+.d-none {
+    display: none;
+}
+
+/******************************************************************************
+ * Hauptaufbau
+ *****************************************************************************/
+
+#publary-main {
+    font-family: $fontContent;
+    color: $colorText;
+}
+
+#publary-filter {
+    .non-nav {
+        padding: 0.55em 1em 0.45em 1em;
+        a:hover { text-decoration: none; }
+    }
+    .search div {
+        white-space: nowrap;
+        input { width: 8rem; }
+    }
+}
+
+#publary-list {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+}
+
+/******************************************************************************
+ * Listeneinträge
+ *****************************************************************************/
+
+.publary-item {
+    margin: 1.25em 0;
+    line-height: 1.4em;
+}
+.publary-item-type, .publary-item-authors, .publary-item-journal, .publary-item-links {
+    margin: 0.2em 0;
+    font-size: 0.875em;
+    line-height: 1.2em;
+    color: $colorText;
+}
+.publary-item-type {
+    font-size: 0.6875em;
+    color: $colorGray;
+    text-transform: uppercase;
+}
+.publary-item-title  {
+    font-weight: 500;
+    line-height: 1.25em;
+}
+.publary-item-journal {
+    font-style: italic;
+    color: $colorDarkGray;
+    a { color: $colorDarkGray !important; }
+}
+.publary-item-links {
+    display: block;
+    padding: 0.25em 0;
+    font-size: 0.75em;
+    a {
+        padding: 0.125em 0.375em;
+        color: $colorGray !important;
+        border-radius: 3px;
+        &:hover {
+            color: $colorBackground !important;
+            background: $colorDarkGray;
+            text-decoration: none;
+        }
+    }
+}    
+.publary-item-abstract {
+    margin: 0.5em;
+    margin-left: 1em;
+	padding-left: 0.75em;
+	font-size: 0.875em;
+    border-left: 2px solid $colorLightGray;
+    strong {
+        display: block;
+        font-size: 0.875em;
+        font-weight: 500;
+        text-transform: uppercase;
+        //color: $colorDarkGray;
+        &:nth-of-type(2) { margin-top: 1em; }
+    }
+    .keyword {
+        display: inline-block;
+        margin-right: 0.75em;
+        &::before { content: '› '; }
+    }
+}
