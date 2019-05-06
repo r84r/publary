@@ -1,15 +1,14 @@
-'use strict';
-
 /**************************************************************************************************
  * 
  *  publary - a publication library include for websites based on PHP+AJAX+Bootstrap+BibTex 
  *  
  *  license and info: https://github.com/r84r/publary
  * 
- *  last modification: 2019-05-03, Ralf Bartsch
+ *  last modification: 2019-05-06, Ralf Bartsch
  * 
  *************************************************************************************************/
 
+'use strict';
 
 /*
  *  Setup
@@ -18,7 +17,7 @@
 /* Pfad von publary */
 const PUBLARY_PATH = 'publary/';
 
-/* Sprachauswahl anhand der URL (RegEx-Ausdruck) */
+/* Sprachauswahl anhand der URL (ohne Anker / RegEx-Ausdruck) */
 const LANGUAGE_URL_SELECTOR_EN = /\ben\.php\b$/;
 
 /*
@@ -127,17 +126,18 @@ function publaryRefreshList() {
 function publaryAddListItem(pub) {
     if (!pub) return null;
     /* Informationen vorbereiten */
-    var briefItem = ($('.switch-list .brief-list').hasClass('d-none') ? ' d-none' : ''),
-        type      = pub['type'],
+    var type      = pub['type'],
         key       = pub['citation-key'],
         title     = pub['title'],
-        authors   = publaryGenerateAuthorsString(pub['author'], (briefItem != ''), (briefItem != ''), true),
+        briefItem = $('.switch-list .brief-list').hasClass('d-none'),
+        authors   = publaryGenerateAuthorsString(pub['author'], briefItem, briefItem, briefItem),
         year      = ('year' in pub ? pub['year'] : ''),
         abstract  = ('abstract' in pub ? pub['abstract'] : ''),
         keywords  = '',
         journal   = '',
         links     = '',
         html, href;
+    briefItem = (briefItem ? ' d-none' : '');
     /* Veröffentlichungsinfo */
     if (type == 'phdthesis') {
         type    = lang['texType']['phdthesis'];
@@ -257,19 +257,25 @@ $(document).ready(function() {
         publaryRefreshList();
     })
 
-    /* bei Tastenanschlag: Suche nach einer Verzögerung starten */
-    $(publaryQuery).keyup(function() {
+    /* Suche starten:
+       - bei Enter und min. 4 Zeichen
+       - bei Tastenanschlag und min. 5 Zeichen (Verzögerung von 500 ms)  */
+    $(publaryQuery).keyup(function(e) {
+        console.log(publaryQuery.value.length + ': ' + publaryQuery.value);
         if (inputTimeout != null)
             clearTimeout(inputTimeout);
-        inputTimeout = setTimeout(function() {
-            inputTimeout = null;
-            // Suchbegriffe in die Anfrage übergeben
-            query = '?query=' + publaryQuery.value;
-            // Liste aktualisieren
-            publaryRefreshList();
-            // Tabauswahl entfernen
-            $('.nav-tabs a.nav-link:not(.dropdown-toggle)').removeClass('active');
-        }, 500);
+        if (e.which == 13 && publaryQuery.value.length >= 4 || publaryQuery.value.length > 4) {
+            //e.preventDefault();
+            inputTimeout = setTimeout(function() {
+                inputTimeout = null;
+                // Suchbegriffe in die Anfrage übergeben
+                query = '?query=' + publaryQuery.value;
+                // Liste aktualisieren
+                publaryRefreshList();
+                // Tabauswahl entfernen
+                $('.nav-tabs a.nav-link:not(.dropdown-toggle)').removeClass('active');
+            }, (e.which == 13 ? 0 : 500));
+        }
     });
 
     /* Erstansicht laden */
