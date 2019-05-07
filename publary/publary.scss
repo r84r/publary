@@ -3,8 +3,6 @@
  *  publary - a publication library include for websites based on PHP+AJAX+Bootstrap+BibTex 
  *  
  *  license and info: https://github.com/r84r/publary
- *  
- *  last modification: 2019-05-02, Ralf Bartsch
  * 
  *************************************************************************************************/
 
@@ -27,14 +25,6 @@ $colorLightGray:  #ddd;
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500');
 $fontContent: 'Roboto', 'Segoe UI', sans-serif;
-
-/******************************************************************************
- * Bootstrap 3 Polyfill
- *****************************************************************************/
-
-.d-none {
-    display: none;
-}
 
 /******************************************************************************
  * Hauptaufbau

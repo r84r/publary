@@ -1,10 +1,9 @@
 /**************************************************************************************************
  * 
- *  publary - a publication library include for websites based on PHP+AJAX+Bootstrap+BibTex 
+ *  publary - a scientific publication list include for websites
+ *            based on PHP+AJAX+Bootstrap+BibTex 
  *  
  *  license and info: https://github.com/r84r/publary
- * 
- *  last modification: 2019-05-06, Ralf Bartsch
  * 
  *************************************************************************************************/
 
@@ -109,15 +108,14 @@ function publaryGenerateAuthorsString(authors, etAl = true, showFirstname = true
  *  Veröffentlichungliste aktualisieren
  */
 function publaryRefreshList() {
-    $.get(PUBLARY_PATH + 'ajax/pub-list.php' + query)
-        .done(function(queriedPubs) {
-            /* alte Listeneinträge entfernen */
-            while (publaryList.firstChild)
-                publaryList.removeChild(publaryList.firstChild);
-            /* neue Listeneinträge generieren */
-            for (var i = 0; i < queriedPubs.length; i++)
-                publaryAddListItem(queriedPubs[i]);
-        });
+    $.get(PUBLARY_PATH + 'ajax/pub-list.php' + query, function(queriedPubs) {
+        /* alte Listeneinträge entfernen */
+        while (publaryList.firstChild)
+            publaryList.removeChild(publaryList.firstChild);
+        /* neue Listeneinträge generieren */
+        for (var i = 0; i < queriedPubs.length; i++)
+            publaryAddListItem(queriedPubs[i]);
+    });
 }
 
 /*
@@ -206,17 +204,20 @@ function publaryAddListItem(pub) {
 /*
  *  Globale Variablen definieren
  */
-var publaryQuery = document.querySelector('#publary-filter-query'),
-    publaryList  = document.querySelector('#publary-list'),
+var publaryQuery,
+    publaryList,
+    query,
     lang         = (LANGUAGE_URL_SELECTOR_EN.test(location.href.replace(location.hash, ''))
                     ? TRANSLATION['en'] : TRANSLATION['de']),
-    inputTimeout = null,
-    query;
+    inputTimeout = null;
 
 /*
  * wenn Dokument fertig geladen, dann Ereignisse hinzufügen und ausführen
  */
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
+
+    publaryQuery = document.querySelector('#publary-filter-query');
+    publaryList  = document.querySelector('#publary-list');
 
     /* Ansichtsschalter */
     $('.switch-list .brief-list i').after('&nbsp; ' + lang['switchToBriefList']);
@@ -235,9 +236,9 @@ $(document).ready(function() {
             tabs.removeClass('active')
                 .attr('aria-selected', 'false');
             tabs.last().attr('href', '#' + value)
-                       .html($(this).html())
-                       .addClass('active')
-                       .attr('aria-selected', 'true');
+                    .html($(this).html())
+                    .addClass('active')
+                    .attr('aria-selected', 'true');
             // Bootstrap 3
             $('.dropdown li').removeClass('active');
             $('.dropdown-item').attr('aria-selected', 'false');
@@ -258,14 +259,15 @@ $(document).ready(function() {
     })
 
     /* Suche starten:
-       - bei Enter und min. 4 Zeichen
-       - bei Tastenanschlag und min. 5 Zeichen (Verzögerung von 500 ms)  */
-    $(publaryQuery).keyup(function(e) {
+    - bei Enter und min. 4 Zeichen
+    - bei Tastenanschlag und min. 5 Zeichen (Verzögerung von 500 ms)  */
+    $(publaryQuery).keyup(function(event) {
         console.log(publaryQuery.value.length + ': ' + publaryQuery.value);
         if (inputTimeout != null)
             clearTimeout(inputTimeout);
-        if (e.which == 13 && publaryQuery.value.length >= 4 || publaryQuery.value.length > 4) {
-            //e.preventDefault();
+        if (event.which == 13 && publaryQuery.value.length >= 4 || publaryQuery.value.length > 4) {
+            if (event.which == 13)
+                event.preventDefault();
             inputTimeout = setTimeout(function() {
                 inputTimeout = null;
                 // Suchbegriffe in die Anfrage übergeben
@@ -274,7 +276,7 @@ $(document).ready(function() {
                 publaryRefreshList();
                 // Tabauswahl entfernen
                 $('.nav-tabs a.nav-link:not(.dropdown-toggle)').removeClass('active');
-            }, (e.which == 13 ? 0 : 500));
+            }, (event.which == 13 ? 0 : 500));
         }
     });
 
@@ -289,4 +291,5 @@ $(document).ready(function() {
     });
     if (def)
         $('.nav-tabs a:not(.dropdown-toggle)').first().click();
+
 });

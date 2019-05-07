@@ -1,0 +1,30 @@
+/**************************************************************************************************
+ * 
+ *  publary - a scientific publication list include for websites
+ *            based on PHP+AJAX+Bootstrap+BibTex 
+ *  
+ *  license and info: https://github.com/r84r/publary
+ * 
+ *************************************************************************************************/
+ 
+#publary-main .dropdown-menu a {
+    display: block;
+    padding: 5px 15px;
+}
+#publary-main .dropdown-menu a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+#publary-main .tab-content {
+    border: 1px solid #ddd; border-top: 0;
+}
+#publary-filter .non-nav a {
+    display: block;
+    padding-top: 0.2em;
+}
+.publary-item-links a {
+    color: gray;
+}
+.d-none {
+    display: none;
+}

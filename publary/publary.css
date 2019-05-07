@@ -1,21 +1,15 @@
-@charset "UTF-8";
 /**************************************************************************************************
  * 
- *  publary - a publication library include for websites based on PHP+AJAX+Bootstrap+BibTex 
+ *  publary - a scientific publication list include for websites
+ *            based on PHP+AJAX+Bootstrap+BibTex 
  *  
  *  license and info: https://github.com/r84r/publary
- *  
- *  last modification: 2019-05-02, Ralf Bartsch
  * 
  *************************************************************************************************/
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500");
-/******************************************************************************
- * Bootstrap 3 Polyfill
- *****************************************************************************/
-.d-none {
-  display: none;
-}
+ 
+@charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500");
 /******************************************************************************
  * Hauptaufbau
  *****************************************************************************/

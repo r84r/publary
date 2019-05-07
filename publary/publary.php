@@ -40,20 +40,20 @@
                 </div>
             </li>
             <li class="nav-item">
-                <div class="non-nav search">
-                    <div class="text-muted">
-                        <i class="fas fa-search"></i>
-                        <input type="text" id="publary-filter-query" class="border-0 rounded bg-light text-muted" placeholder="">
-                    <div>
-                <div>
-            </li>
-            <li class="nav-item">
                 <div class="non-nav text-muted">
                     <a class="switch-list text-muted" href="#">
                         <span class="brief-list"><i class="fas fa-bars"></i></span>
                         <span class="full-list d-none"><i class="fas fa-align-justify"></i></span>
                     </a>
                 </div>
+            </li>
+            <li class="nav-item">
+                <div class="non-nav search">
+                    <div class="text-muted">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="publary-filter-query" class="border-0 rounded bg-light text-muted" placeholder="">
+                    <div>
+                <div>
             </li>
         </ul>
     </div>
@@ -62,5 +62,3 @@
         </ul>
     </div>
 </div>
-<script src="publary/publary.js"></script>
-
